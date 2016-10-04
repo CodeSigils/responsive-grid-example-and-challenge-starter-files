@@ -14,6 +14,13 @@
  *   so 960 + 20 + 20 => 1000px
  *
  **/
+
+ h2 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+}
+
 .row {
   max-width: 1000px;
   padding-left: 20px;
@@ -60,14 +67,16 @@
 
   /* 4 columns */
   .col-4 {
+    width: 33.33%;
   }
 
   /* 6 columns */
   .col-6 {
-
+    width: 50%;
   }
 
   /* 12 columns */
   .col-12 {
+    width: 100%;
   }
 }
